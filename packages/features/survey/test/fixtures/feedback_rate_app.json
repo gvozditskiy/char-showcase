@@ -1,0 +1,100 @@
+{
+  "surveyId": "rate_app",
+  "continueButtonText": "Continue",
+  "chooseOptionErrorText": "Please choose an option first",
+  "freeInputPlaceholder": "Enter your answer",
+  "introButtonText": "Start",
+  "submitButtonText": "Submit",
+  "eventHandlers": [
+    {
+      "type": "rate_app_positive",
+      "scope": "screen",
+      "screenKeys": [
+        "store_rating"
+      ]
+    },
+    {
+      "type": "rate_app_negative_feedback",
+      "scope": "screen",
+      "screenKeys": [
+        "negative_feedback"
+      ]
+    },
+    {
+      "type": "analytics",
+      "scope": "screen",
+      "screenKeys": [
+        "rating"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "screenType": "RATING_SURVEY",
+      "key": "rating",
+      "title": "Rate Char",
+      "subtitle": "How would you rate your experience?",
+      "options": [
+        {
+          "key": "1",
+          "value": 1,
+          "emoji": "😢"
+        },
+        {
+          "key": "2",
+          "value": 2,
+          "emoji": "😐"
+        },
+        {
+          "key": "3",
+          "value": 3,
+          "emoji": "😊"
+        },
+        {
+          "key": "4",
+          "value": 4,
+          "emoji": "😍"
+        },
+        {
+          "key": "5",
+          "value": 5,
+          "emoji": "🤩"
+        }
+      ],
+      "navigation": {
+        "rules": [
+          {
+            "ruleType": "INDEX_RANGE",
+            "range": [
+              1,
+              3
+            ],
+            "goTo": "negative_feedback"
+          },
+          {
+            "ruleType": "INDEX_RANGE",
+            "range": [
+              4,
+              5
+            ],
+            "goTo": "store_rating"
+          }
+        ]
+      }
+    },
+    {
+      "screenType": "COVER_SURVEY",
+      "key": "negative_feedback",
+      "title": "Would you like to drop us feedback?",
+      "subtitle": "Please provide more details to let us make the app better.",
+      "continueButtonText": "Rate Char"
+    },
+    {
+      "screenType": "COVER_SURVEY",
+      "key": "store_rating",
+      "title": "Love Char?",
+      "subtitle": "Rate us on the {{storeName}}",
+      "continueButtonText": "Rate Now"
+    }
+  ]
+}

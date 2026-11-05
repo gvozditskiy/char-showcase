@@ -1,0 +1,10 @@
+{
+  "@@locale": "en",
+  "profileRate": "Rate app",
+  "profileSettingsAppearance": "Appearance",
+  "profileSettingsAppMode": "App mode",
+  "profileSettingsAppearanceDescription": "Turn on dark mode, or let the app visually match your device settings.",
+  "profileSettingsThemeSystem": "System",
+  "profileSettingsThemeLight": "Light",
+  "profileSettingsThemeDark": "Dark"
+}

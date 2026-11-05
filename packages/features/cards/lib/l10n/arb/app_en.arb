@@ -1,0 +1,29 @@
+{
+  "@@locale": "en",
+  "cardsFeedTitle": "Feed",
+  "cardsFeedErrorTitle": "Feed unavailable",
+  "cardsFeedErrorDescription": "We couldn't load new profiles. Please try again.",
+  "cardsFeedRetryButtonTitle": "Retry",
+  "cardsFeedEmptyTitle": "No profiles yet",
+  "cardsFeedEmptyDescription": "Create your own character to get started.",
+  "cardsFeedLikeSentBadge": "Liked",
+  "cardsFeedCreateCharacterTitle": "Create your CUSTOM character",
+  "cardsFeedCreateCharacterLook": "Pick look & body",
+  "cardsFeedCreateCharacterPersonality": "Set personality",
+  "cardsFeedCreateCharacterButton": "Start creating",
+  "cardsErrorToast": "Something went wrong. Please try again.",
+  "cardsLikeErrorToast": "Couldn't update like",
+  "cardsCharacterJoinedToast": "{name} joined your feed",
+  "@cardsCharacterJoinedToast": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "detailsBioSectionTitle": "Bio",
+  "detailsInterestsSectionTitle": "Interests",
+  "detailsAttributesSectionTitle": "Details",
+  "detailsNotFoundTitle": "Profile unavailable",
+  "detailsNotFoundDescription": "We couldn't load this profile."
+}

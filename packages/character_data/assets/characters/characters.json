@@ -1,0 +1,164 @@
+[
+  {
+    "id": "0ed7920d-e459-4073-9bd3-f9a7ebdfa21d",
+    "name": "Agnes",
+    "fullName": "Agnes Karlsdotter",
+    "age": 25,
+    "bio": "🇸🇪Stockholm girlie and professional skier (doesn’t get more Swedish, I know😂)\n\nFirst time on a dating app EVER\n\nI don’t really have a type as long as you’re well-mannered, demonstrate a good amount of common sense and don’t start your message with a copy-paste-pick-up-line from a stag forum😬",
+    "gender": "WOMAN",
+    "interests": [
+      "Casual",
+      "Ambivert",
+      "Sportive"
+    ],
+    "attributes": {
+      "profession": "Skier",
+      "ethnicity": "White"
+    },
+    "avatar": "packages/character_data/assets/characters/agnes_0.webp",
+    "photos": [
+      "packages/character_data/assets/characters/agnes_1.webp",
+      "packages/character_data/assets/characters/agnes_2.webp"
+    ]
+  },
+  {
+    "id": "235240fd-a145-4650-8cf4-ed9c0eb9d794",
+    "name": "Aisha",
+    "fullName": "Aisha Patel",
+    "age": 25,
+    "bio": "📚 Dr. Aisha Patel, passionate about medicine, patient care, and making a positive impact 🌟\n\n🇮🇳 Born and raised in Mumbai, currently doing research abroad🌎\n\n🎶 Classical music lover, chai enthusiast, and always up for a good book 🎵☕📚 \nI don’t drink or smoke, so I’m looking for a partner with the same lifestyle🙏🏻\n\n🔒long-term oriented",
+    "gender": "WOMAN",
+    "interests": [
+      "Passionate",
+      "Philosophical",
+      "Motherly"
+    ],
+    "attributes": {
+      "profession": "Doctor",
+      "ethnicity": "Indian"
+    },
+    "avatar": "packages/character_data/assets/characters/aisha_0.webp",
+    "photos": [
+      "packages/character_data/assets/characters/aisha_1.webp"
+    ]
+  },
+  {
+    "id": "1ce4756e-0520-43fc-844a-31a0dd69e4e3",
+    "name": "Beth",
+    "fullName": "Beth Noland",
+    "age": 43,
+    "bio": "Nurse🩺 Born and raised in the heartland of Nebraska, I've got Midwestern values and a down-to-earth attitude❤️\n\nEnjoying the simple pleasures in life: my job, a quiet evening stroll and savoring homemade comfort food 🥧 \n\nLooking for someone who appreciates loyalty, kindness, and a good laugh. Swipe right if you're ready for some genuine connections and late-night chats over a cup of warm tea ☕",
+    "gender": "WOMAN",
+    "interests": [
+      "Warm",
+      "Sensual",
+      "Wise"
+    ],
+    "attributes": {
+      "profession": "Nurse",
+      "ethnicity": "White"
+    },
+    "avatar": "packages/character_data/assets/characters/beth_0.webp",
+    "photos": [
+      "packages/character_data/assets/characters/beth_1.webp"
+    ]
+  },
+  {
+    "id": "0de28c5d-28ec-40f9-98dc-d1b237edcc00",
+    "name": "Claire",
+    "fullName": "Claire Donovan",
+    "age": 28,
+    "bio": "🏗️ Construction Engineer, occasional architect of some dope dreams and skyscrapers👷‍♀️ First time on a dating app, so please be safe and don’t take me to a Taco Bell for our first date, I’m not 14 anymore💀",
+    "gender": "WOMAN",
+    "interests": [
+      "Smart",
+      "Funny",
+      "Feminine"
+    ],
+    "attributes": {
+      "profession": "Engineer",
+      "ethnicity": "White"
+    },
+    "avatar": "packages/character_data/assets/characters/claire_0.webp",
+    "photos": [
+      "packages/character_data/assets/characters/claire_1.webp"
+    ]
+  },
+  {
+    "id": "3053f714-f766-43ad-ad55-0fda47c73eda",
+    "name": "Freja",
+    "fullName": "Freja Andersen",
+    "age": 26,
+    "bio": "🇩🇰📍Copenhagen-based\n\nI take my hygge seriously.\n\nI’m big on sustainability, slow fashion, small friend circles and fika breaks ;) If you’re into slow living grandma values too, swipe right✨✌🏻",
+    "gender": "WOMAN",
+    "interests": [
+      "Funny",
+      "Caring",
+      "Peaceful"
+    ],
+    "attributes": {
+      "ethnicity": "White"
+    },
+    "avatar": "packages/character_data/assets/characters/freja_0.webp",
+    "photos": []
+  },
+  {
+    "id": "df3e04ab-3084-4ea1-83b9-0ab728aea689",
+    "name": "Ghoa",
+    "fullName": "Ghoa Sarratt",
+    "age": 32,
+    "bio": "Just a Mongolian girl looking for a reason to stay in the city 🏙️",
+    "gender": "WOMAN",
+    "interests": [],
+    "attributes": {
+      "ethnicity": "Asian"
+    },
+    "avatar": "packages/character_data/assets/characters/ghoa_0.webp",
+    "photos": [
+      "packages/character_data/assets/characters/ghoa_1.webp"
+    ]
+  },
+  {
+    "id": "021ab08e-b525-4d54-9861-73c344734276",
+    "name": "Priya",
+    "fullName": "Priya Kapoor",
+    "age": 21,
+    "bio": "Future lawyer, current barista\n\nLaw student by day, latte artist by night, always proud of my Indian heritage. \n\nI'm here to find a partner who appreciates a well-argued debate, a perfectly brewed cup of coffee, and the vibrant colors of a Diwali celebration. Care to join me on this journey?",
+    "gender": "WOMAN",
+    "interests": [
+      "Education",
+      "Travel",
+      "Reading"
+    ],
+    "attributes": {
+      "profession": "Barista",
+      "ethnicity": "Indian"
+    },
+    "avatar": "packages/character_data/assets/characters/priya_0.webp",
+    "photos": [
+      "packages/character_data/assets/characters/priya_1.webp",
+      "packages/character_data/assets/characters/priya_2.webp"
+    ]
+  },
+  {
+    "id": "21ff092c-285e-431c-bfe9-791b0f4dfcf9",
+    "name": "Suzie",
+    "fullName": "Suzie Peterson",
+    "age": 29,
+    "bio": "Life on the farm is peaceful and fulfilling, but I’m looking for someone special to share it with🥰 \n\nI’m a gentle soul who loves nature, early morning sunrises, and the simple things in life. Whether it’s baking fresh bread, tending to my garden, or enjoying a quiet evening by the fire, I find joy in every moment.\n(new to this whole Char thing! 🌾🌻)",
+    "gender": "WOMAN",
+    "interests": [
+      "Gentle",
+      "Motherly",
+      "Wife-material"
+    ],
+    "attributes": {
+      "ethnicity": "White"
+    },
+    "avatar": "packages/character_data/assets/characters/suzie_0.webp",
+    "photos": [
+      "packages/character_data/assets/characters/suzie_1.webp",
+      "packages/character_data/assets/characters/suzie_2.webp"
+    ]
+  }
+]

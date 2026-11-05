@@ -1,0 +1,39 @@
+name: profile
+description: Char profile module
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.10.0-0 <4.0.0"
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  core:
+    path: ../../core
+  navigation:
+    path: ../../navigation
+  common_ui:
+    path: ../../common_ui
+  equatable: ^2.0.5
+  flutter_svg: ^2.0.14
+  flutter_bloc: ^9.0.0
+  go_router: ^16.3.0
+  intl: any
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.1
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - lib/assets/images/ic_arrow_right.svg
+    - lib/assets/images/ic_rate_app.svg

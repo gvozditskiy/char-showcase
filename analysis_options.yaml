@@ -1,0 +1,51 @@
+include: package:very_good_analysis/analysis_options.5.1.0.yaml
+
+formatter:
+  page_width: 100
+
+linter:
+  rules:
+    public_member_api_docs: false
+    omit_local_variable_types: false
+    lines_longer_than_80_chars: false
+    sort_pub_dependencies: false
+    prefer_relative_imports: true
+    always_use_package_imports: false
+    prefer_const_constructors: true
+    flutter_style_todos: false
+    use_late_for_private_fields_and_variables: false
+    require_trailing_commas: false
+
+analyzer:
+  errors:
+    unused_import: error # We don't need unused imports in the project
+    unused_local_variable: error # We don't need unused variables in the project
+    missing_required_param: error # Let's not miss required params
+    prefer_relative_imports: error # Let's prefer relative imports in the project
+    directives_ordering: error # Let's follow the same order of imports in the project
+    unawaited_futures: error # Let's always resolve Futures
+    invalid_assignment: error # Let's fix them immediately
+    missing_return: error # Let's treat missing returns as an error, not as a hint or a warning.
+    dead_code: error # Let's fix them immediately
+    always_put_required_named_parameters_first: error # Let's fix them immediately
+    unnecessary_breaks: error # Let's fix them immediately
+    unnecessary_import: error # Let's fix them immediately
+    empty_statements: error # Let's fix them immediately
+    depend_on_referenced_packages: error # Let's fix them immediately
+
+  exclude:
+    - "build/**"
+    - "**/build/**"
+    - "ios/build/**"
+    - "ios/Flutter/ephemeral/**"
+    - "ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/**"
+    - "ios/Runner.xcworkspace/xcshareddata/swiftpm/**"
+    - "lib/firebase_options.dart"
+    - "bricks/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*localizations*.dart"
+    - "**/test/drift/**/generated/**"
+    - android/**
+    - ios/**
+    - web/**

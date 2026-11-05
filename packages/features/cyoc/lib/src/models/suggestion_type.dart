@@ -1,0 +1,1 @@
+enum SuggestionType { femaleName, maleName }

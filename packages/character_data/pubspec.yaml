@@ -1,0 +1,25 @@
+name: character_data
+description: Char character_data module
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.10.0-0 <4.0.0"
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  collection: ^1.17.2
+  equatable: ^2.0.5
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.1
+  very_good_analysis: ^6.0.0
+
+flutter:
+  assets:
+    - assets/characters/

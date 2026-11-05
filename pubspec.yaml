@@ -1,0 +1,65 @@
+name: char
+description: Char — modular Flutter showcase app
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.10.0-0 <4.0.0"
+
+workspace:
+  - packages/core
+  - packages/navigation
+  - packages/common_ui
+  - packages/character_data
+  - packages/features/cards
+  - packages/features/cyoc
+  - packages/features/survey
+  - packages/features/profile
+
+dependencies:
+  bloc: ^9.2.1
+  cards:
+    path: packages/features/cards
+  character_data:
+    path: packages/character_data
+  common_ui:
+    path: packages/common_ui
+  core:
+    path: packages/core
+  cyoc:
+    path: packages/features/cyoc
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.0.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.0.14
+  go_router: ^16.3.0
+  in_app_review: ^2.0.9
+  intl: any
+  logger: ^2.5.0
+  navigation:
+    path: packages/navigation
+  profile:
+    path: packages/features/profile
+  shared_preferences: ^2.3.3
+  survey:
+    path: packages/features/survey
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.1
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/data/
+    - assets/images/ic_cards.svg
+    - assets/images/ic_create.svg
+    - assets/images/ic_profile.svg
